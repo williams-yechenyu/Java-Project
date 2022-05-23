@@ -34,3 +34,4 @@ public class ExprimentTwo {
 	}
 
 }
+//最下面是数组越界问题，直接运行上方注释代码，下方代码可删除
