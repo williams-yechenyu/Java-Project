@@ -1,0 +1,58 @@
+public class ExprimentFour {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "Hello";
+		String str2 = "Hello";
+		String str3 = new String("Hello");
+		String str4 = new String("Hello");
+		System.out.println("用运算符 == 进行比较结果如下：");
+		if( str1 == str2 )
+		{
+			System.out.println("str1 与 str2 相等");
+		}else
+		{
+			System.out.println("str1 与 str2 不相等");
+		}
+		if( str3 == str4 )
+		{
+			System.out.println("str3 与 str4 相等");
+		}else
+		{
+			System.out.println("str3 与 str4 不相等");
+		}
+		if( str2 == str3 )
+		{
+			System.out.println("str2 与 str3 相等");
+		}else
+		{
+			System.out.println("str2 与 str3 不相等");
+		}
+		System.out.println("调用equals()方法进行比较结果如下：");
+		if(str1.equals(str2))
+		{
+			System.out.println("str1 与 str2 相等");
+		}else
+		{
+			System.out.println("str1 与 str2 不相等");
+		}
+		if(str3.equals(str4))
+		{
+			System.out.println("str3 与 str4 相等");
+		}else
+		{
+			System.out.println("str3 与 str4 不相等");
+		}
+		if(str2.equals(str3))
+		{
+			System.out.println("str2 与 str3 相等");
+		}else
+		{
+			System.out.println("str2 与 str3 不相等");
+		}
+		
+//		String str1 = new String("Hello");
+//		String str2 = new String("Hello");
+//		System.out.println(str1.equals(str2));
+	}
+}
