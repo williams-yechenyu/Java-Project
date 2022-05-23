@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ExprimentTen {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 0;
+		int i = 1;
+		int s = 0;
+		Scanner in = new Scanner(System.in);
+		while(a<50 || a>100)
+		{
+			System.out.print("从键盘输入一个50~100的整数：");
+			a = in.nextInt();
+		}
+		System.out.println("你输入的数是："+ a );
+		while(!(i>a))
+		{
+			s += i;
+			i++;
+		}
+		System.out.println("1+2+...+"+a+"="+s);
+	}
+
+}
